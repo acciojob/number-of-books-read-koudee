@@ -18,7 +18,7 @@ const library = [
 
 const numberOfBooksRead = () => {
   let booksRead=0;
-	library.forEach((book)=>{
+	library.forEach((books) => {
 		books.readingStatus && ++booksRead;
 	})
 	return booksRead;
